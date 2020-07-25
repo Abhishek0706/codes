@@ -1,0 +1,166 @@
+[General]
+answer_file_save_path=./${basename}_${1-index}.ans
+ask_for_loading_external_changes=false
+auto_complete_parentheses=true
+auto_indent=true
+auto_load_external_changes_if_no_unsaved_modification=false
+auto_remove_parentheses=true
+auto_save=true
+auto_save_interval=1000
+auto_save_interval_type=After the last modification
+beta=false
+check_on_testcases_with_empty_output=false
+check_update=true
+custom_application_font=@Variant(\0\0\0@\0\0\0\x14\0S\0\x61\0n\0s\0 \0S\0\x65\0r\0i\0\x66@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+default_file_paths_for_problem_urls=@Invalid()
+default_language=C++
+display_eoln_in_diff=false
+editor_font="@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@,\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)"
+editor_theme=Light
+extra_bottom_margin=true
+file_problem_binding=@Invalid()
+force_close=false
+geometry=@Rect(960 64 960 1016)
+html_diff_viewer_length_limit=50000
+input_file_save_path=./${basename}_${1-index}.in
+load_test_case_length_limit=500000
+locale=system
+maximized_window=true
+message_length_limit=20000
+message_logger_font=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+opacity=100
+open_file_length_limit=20000
+open_old_file_for_old_problem_url=false
+output_display_length_limit=50000
+output_length_limit=500000
+replace_tabs=false
+restore_old_problem_url=false
+right_splitter_size="@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1;\0\0\x2\x42\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)"
+run_on_empty_testcase=true
+save_faster=false
+save_file_on_compilation=true
+save_file_on_execution=true
+save_tests=true
+show_compile_and_run_only=false
+splitter_size=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x4?\0\0\x3\x15\x1\xff\xff\xff\xff\x1\0\0\0\x1\0)
+tab_jump_out_parentheses=false
+tab_width=4
+test_case_maximum_height=300
+test_cases_font=@Variant(\0\0\0@\0\0\0\x12\0M\0o\0n\0o\0s\0p\0\x61\0\x63\0\x65@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+testcases_matching_rules=@Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0\x61\0n\0s), @Variant(\0\0\0\v\0\0\0\x2\0\0\0\x10\0(\0.\0*\0)\0\\\0.\0i\0n\0\0\0\f\0\\\0\x31\0.\0o\0u\0t)
+time_limit=5000
+ui_style=Light Fusion
+use_custom_application_font=false
+view_mode=split
+wrap_text=false
+
+[Language%20Config]
+C%2B%2B\snippet\A="#include <bits/stdc++.h>\nusing namespace std;\n#define dbgv(v) cout<<'>'<< #v <<':';for(auto ii:v)cout<<ii<<' ';cout<<endl;\n#define dbg(x) cout<<'>'<< #x <<':'<< x <<endl;\n#define int long long\n\nvoid run_case(){\n\t\n}\n\nsigned main(){\nios_base::sync_with_stdio(false);\ncin.tie(0);cout.tie(0);int tc=1;\ncin>>tc;\nwhile(tc--)run_case();\nreturn 0;\n}"
+
+[cf]
+path=cf
+show_toast_messages=true
+
+[clang_format]
+format_on_auto_save=false
+format_on_manual_save=false
+path=clang-format
+style=BasedOnStyle: Google
+
+[competitive_companion]
+connection_port=10045
+enable=true
+open_new_tab=true
+
+[cpp]
+compile_command=g++ -Wall
+compiler_output_codec=UTF-8
+output_path=${tmpdir}/${basename}
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+template_cursor_position_offset_characters=4
+template_cursor_position_offset_type=end
+template_cursor_position_regex=main\\(\\)
+template_path=
+
+[default_path]
+action\add_pairs_of_test_cases\changes=testcase
+action\add_pairs_of_test_cases\uses=${testcase}
+action\custom_checker\changes=checker
+action\custom_checker\uses=${checker}
+action\export_and_import_settings\changes=settings
+action\export_and_import_settings\uses=${settings}
+action\export_and_load_session\changes=session
+action\export_and_load_session\uses=${session}
+action\extract_and_load_snippets\changes=snippets
+action\extract_and_load_snippets\uses=${snippets}
+action\load_single_test_case\changes=testcase
+action\load_single_test_case\uses=${testcase}
+action\open_contest\changes="contest, file, testcase, checker"
+action\open_contest\uses=${contest}
+action\open_file\changes="file, testcase, checker"
+action\open_file\uses=${file}
+action\save_file\changes="file, testcase, checker"
+action\save_file\uses=${file}
+names_and_paths=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\v\0\0\0\x2\0\0\0\x10\0s\0\x65\0t\0t\0i\0n\0g\0s\0\0\0\0)
+
+[hot_exit]
+auto_save=false
+auto_save_interval=20000
+enable=true
+
+[hotkey]
+change_view_mode=
+compile=
+compile_run=
+format=
+kill=
+run=
+snippets=
+
+[java]
+class_name=Main
+compile_command=javac
+compiler_output_codec=UTF-8
+output_path=${tmpdir}
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+run_command=java
+template_cursor_position_offset_characters=0
+template_cursor_position_offset_type=end
+template_cursor_position_regex=
+template_path=
+
+[lsp]
+args_cpp=
+args_java=
+args_python=-m pyls
+delay_cpp=2000
+delay_java=2000
+delay_python=2000
+path_cpp=clangd
+path_java=
+path_python=python
+use_autocomplete_cpp=false
+use_autocomplete_java=false
+use_autocomplete_python=false
+use_linting_cpp=false
+use_linting_java=false
+use_linting_python=false
+
+[proxy]
+enabled=true
+host_name=127.0.0.1
+password=
+port=1080
+type=System
+user=
+
+[python]
+parentheses=@Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0(\0\0\0\x2\0\0\0)\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0{\0\0\0\x2\0\0\0}\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0[\0\0\0\x2\0\0\0]\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\"\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1), @Variant(\0\0\0\t\0\0\0\x5\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0'\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\0\0\0\x1)
+run_arguments=
+run_command=python
+template_cursor_position_offset_characters=0
+template_cursor_position_offset_type=end
+template_cursor_position_regex=
+template_path=
