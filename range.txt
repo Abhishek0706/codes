@@ -1,0 +1,9 @@
+
+size of ll vector 2 * 1e18
+
+range of ll = 9 * 1e18
+
+range of int = 2* 1e9 = 2 pow 31
+
+no of iteration in 1 sec = 10 pow 8
+
