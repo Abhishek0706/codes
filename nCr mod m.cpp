@@ -18,6 +18,8 @@ void fact_rfact_calc(){
 	for(int i=1;i<N;i++){
 		fact[i]=(i*fact[i-1])%M;
 		rfact[i]=(rfact[i-1]*pow_mod(i,M-2))%M;
+		// or direct little fermat theorem.
+		rfact[i] = pow_mod(fact[i], M-2);
 	}
 }
 
